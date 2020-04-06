@@ -1,0 +1,237 @@
+@media (max-width: 1200px)
+  .title
+    font-size: 30px
+  .menu
+    &-item
+      padding-right: 20px
+    &-link
+      font-size: 13px
+  .promo
+    &-header
+      font-size: 50px
+  .reasons
+    &-block
+      align-items: flex-start
+    &-desc
+      width: 300px
+  .mobile
+    &-item
+      width: 300px
+  .footer
+    .wrapper
+      flex-direction: column
+      align-items: center
+    .wrapper > div
+      width: 100%
+    .icons-block
+      margin: 0 auto
+      margin-bottom: 10px
+    .download
+      margin: 0 auto
+      margin-top: 10px
+
+@media (max-width: 991px)
+  .menu
+    &-item
+      padding-right: 8px
+    &-link
+      font-size: 10px
+  .subheader
+    &-logo
+      img
+        width: 100%
+    &-official
+      font-size: 11px
+    &-phone
+      font-size: 18px
+    &-btn
+      margin-top: 21px
+      width: 100%
+      height: 40px
+  .promo
+    &-header
+      font-size: 40px
+    &-subheader
+      font-size: 30px
+    &-btn
+      width: 245px
+      height: 50px
+  .reasons
+    &-block
+      flex-direction: column
+      align-items: center
+    &-desc
+      width: 300px
+      margin-top: 20px
+  .mobile
+    &-item
+      width: 230px
+  .choice
+    img
+      width: 640px
+  .require
+    &-title
+      font-size: 20px
+    &-list
+      li
+        font-size: 15px
+
+@media (max-width: 767px)
+  .menu
+    position: fixed
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    top: 0
+    left: -100%
+    width: 50%
+    height: 100vh
+    padding: 20px 15px
+    background-color: rgba(0,0,0,0.8)
+    transition: 0.6s all
+    &-active
+      left: 0
+      z-index: 2
+    &-item
+      padding-right: 0
+      border: none
+      margin: 10px 0
+    &-link
+      font-size: 20px
+  .choice
+    min-height: 785px
+    img
+      width: 488px
+  .hamburger
+    display: block
+    position: absolute
+    right: 10px
+    top: 50%
+    transform: translateY(-50%)
+    width: 26px
+    height: 12px
+    span
+      display: block
+      height: 2px
+      width: 100%
+      background-color: #fff
+      margin-bottom: 2px
+      transition: 0.5s all
+    &-active
+      span
+        margin-bottom: -2px
+        &:nth-child(1)
+          transform: translateY(3px) rotate(-45deg)
+        &:nth-child(2)
+          display: none
+        &:nth-child(3)
+          transform: translateY(3px) rotate(45deg)
+  .xs-hidden
+    display: none
+  .xs-visible
+    display: block
+  .subheader
+    &-phone
+      display: block
+      margin-top: 10px
+      color: #fff
+      font-size: 16px
+      font-weight: 400
+      text-transform: uppercase
+      text-align: center
+    &-btn
+      display: block
+      width: 200px
+      height: 40px
+      margin: 0 auto
+      margin-top: 10px
+  .promo
+    &-header
+      font-size: 40px
+      line-height: 45px
+
+@media (max-width: 575px)
+  nav
+    height: 30px
+  header
+    height: 30px
+  .subheader
+    height: 60px
+    top: 30px
+    &-official
+      display: none
+    &-logo
+      margin-top: 16px
+    &-phone
+      font-size: 12px
+      font-weight: 400
+      text-transform: uppercase
+      margin-top: 11px
+    &-btn
+      width: 110px
+      height: 22px
+      font-size: 10px
+      margin-top: 7px
+  .promo
+    min-height: 400px
+    padding: 93px 0 35px 0
+    &-desc
+      display: none
+    &-header
+      font-size: 30px
+      line-height: 35px
+      padding: 0 24px
+      margin-bottom: 33px
+    &-subheader
+      font-size: 20px
+      line-height: 30px
+      padding: 0 10px
+    &-btn
+      width: 210px
+      height: 50px
+      margin-top: 72px
+  .menu
+    width: 85%
+  .reasons
+    padding: 22px 0 36px 0
+    &-block
+      margin-top: 26px
+    &-desc
+      width: 100%
+      margin-top: 27px
+    &-subtitle
+      font-size: 16px
+  .title
+    font-size: 16px
+    margin-top: 15px
+    line-height: 16px
+  .choice
+    min-height: 390px
+    background: none
+    padding-bottom: 0
+    img
+      width: 280px
+    &-text
+      @include pos-rel-z-2
+      color: #fff
+  .require
+    &-block
+      margin: 10px 0
+  .footer
+    padding-right: 10px
+    padding-left: 10px
+    .divider
+      width: 250px
+    .wrapper
+      .links-block
+        width: 100%
+      .main
+        &-link
+          font-size: 13px
+      .secondary
+        &-link
+          font-size: 10px 
+      .download
+        a
+          img
+            width: 76px

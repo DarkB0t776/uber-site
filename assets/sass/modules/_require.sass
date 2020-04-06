@@ -1,0 +1,43 @@
+.require
+  padding: 68px 0 84px 0
+  &-block
+    margin: 33px 0
+    &-nmb
+      margin-bottom: 0px
+  &-title
+    color: #1ca8c3
+    font-size: 22px
+    font-weight: 400
+  &-list
+    list-style-type: none
+    padding-left: 50px
+    margin-top: 22px
+    li
+      position: relative
+      font-size: 17px
+      font-weight: 30
+      line-height: 24px
+      margin-bottom: 10px
+      &:before
+        content: ''
+        display: block
+        position: absolute
+        left: -32px
+        top: 3px
+        vertical-align: middle      
+        width: 21px
+        height: 20px
+        background: url('../img/icons/blue-check.png') center (center/cover) no-repeat
+  &-desc
+    margin-top: 25px
+    font-size: 17px
+    font-weight: 300
+    line-height: 24px
+    color: #1ca8c3
+  .warning
+    .require-title
+      color: $mainColor
+    .require-list
+      li
+        &:before
+          background: url('../img/icons/red-check.png') center (center/cover) no-repeat

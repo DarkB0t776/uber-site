@@ -1,0 +1,67 @@
+.mobile
+  min-height: 864px
+  padding: 48px 0 79px 0
+  background: url('../img/bg-3.png') center (center/cover) no-repeat
+  .row
+    margin-top: 32px
+  &-item
+    position: relative
+    width: 320px
+    height: 280px
+    margin: 0 auto
+    margin-bottom: 19px
+    padding-top: 92px
+    &-1
+      background: url('../img/mobile-1.jpg') center (center/cover) no-repeat
+    &-2
+      background: url('../img/mobile-2.jpg') center (center/cover) no-repeat
+    &-3
+      background: url('../img/mobile-3.jpg') center (center/cover) no-repeat
+    &-4
+      background: url('../img/mobile-4.jpg') center (center/cover) no-repeat
+    &-5
+      background: url('../img/mobile-5.jpg') center (center/cover) no-repeat
+    &-6
+      background: url('../img/mobile-6.jpg') center (center/cover) no-repeat
+    &-subtitle
+      font-size: 24px
+      font-weight: 400
+      line-height: 31px
+      color: #fff
+      text-transform: uppercase
+      text-align: center
+    &-plus
+      display: flex
+      justify-content: center
+      align-items: center
+      position: absolute
+      width: 26px
+      height: 26px
+      background-color: #000000
+      margin: 0 auto
+      border-radius: 50%
+      bottom: 35px
+      left: 50%
+      transform: translateX(-50%)
+      cursor: pointer
+      &:before
+        content: ''
+        display: block
+        width: 14px
+        height: 2px
+        background-color: $lightBlue
+        transition: 0.3s all
+      &:after
+        content: ''
+        position: absolute
+        left: 50%
+        transform: translateX(-50%)
+        display: block
+        height: 14px
+        width: 2px
+        background-color: $lightBlue
+        transition: 0.3s all
+      &:hover
+        &:before,
+        &:after
+          background-color: $mainColor
