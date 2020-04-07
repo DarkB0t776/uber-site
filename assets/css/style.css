@@ -50,6 +50,9 @@ nav {
     color: #ffffff;
     font-size: 15px;
     font-weight: 300; }
+    .menu-link:hover {
+      color: #1eacc7;
+      text-decoration: none; }
   .menu-item {
     border-right: 2px dotted black;
     padding-right: 28px; }
@@ -602,6 +605,12 @@ nav {
 
   .menu {
     width: 85%; }
+    .menu-item {
+      width: 100%;
+      text-align: center;
+      padding: 4px; }
+    .menu-link {
+      display: block; }
 
   .reasons {
     padding: 22px 0 36px 0; }
